@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <div>
-          <h1>Welcome to website</h1>
+          <h1>Welcome to Pokemon app</h1>
           <Link to="about">About</Link> | <Link to="app">App</Link>
         </div>
         <Outlet></Outlet>
